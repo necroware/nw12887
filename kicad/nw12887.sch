@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "NW12887"
-Date "2021-05-21"
-Rev "1"
+Date "2021-05-23"
+Rev "2"
 Comp "Necroware"
 Comment1 "by Scorp"
 Comment2 ""
@@ -30,7 +30,7 @@ U 1 1 60A06FF2
 P 5350 2300
 F 0 "U2" H 5350 2475 50  0000 C CNN
 F 1 "ds12887" H 5350 2384 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm" H 5350 2350 50  0001 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 5350 2350 50  0001 C CNN
 F 3 "" H 5350 2350 50  0001 C CNN
 	1    5350 2300
 	1    0    0    -1  
@@ -44,7 +44,7 @@ F 1 "Crystal_Small" H 5000 1516 50  0001 C CNN
 F 2 "Crystal:Crystal_SMD_FrontierElectronics_FM206" H 5000 1650 50  0001 C CNN
 F 3 "~" H 5000 1650 50  0001 C CNN
 	1    5000 1650
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text GLabel 4250 2350 2    50   Input ~ 0
 VCC
@@ -153,6 +153,6 @@ Text GLabel 6350 1500 1    50   Input ~ 0
 BC
 Text GLabel 6350 1800 3    50   Input ~ 0
 GND
-Text GLabel 5200 1650 2    50   Input ~ 0
+Text GLabel 4800 1650 0    50   Input ~ 0
 GND
 $EndSCHEMATC
