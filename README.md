@@ -1,6 +1,6 @@
 # Necroware's NW12887 RTC module
 
-![front](./front.jpg) ![back](./back.jpg)
+![photo](./photo.jpg)
 
 This is a drop-in replacement for RTC modules with solid body. Such modules were
 widely used on 486 and Pentium mainboards back in the days. After so many years
