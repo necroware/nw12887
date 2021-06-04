@@ -71,7 +71,6 @@ NoConn ~ 5750 2550
 NoConn ~ 3450 2450
 NoConn ~ 3450 2550
 NoConn ~ 4250 2750
-NoConn ~ 4250 3150
 Text GLabel 5750 2850 2    50   Input ~ 0
 INT
 Text GLabel 5750 2950 2    50   Input ~ 0
@@ -154,5 +153,7 @@ BC
 Text GLabel 6350 1800 3    50   Input ~ 0
 GND
 Text GLabel 4800 1650 0    50   Input ~ 0
+GND
+Text GLabel 4250 3150 2    50   Input ~ 0
 GND
 $EndSCHEMATC
